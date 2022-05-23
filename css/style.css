@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+
+    font-family: 'Oswald', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1bbbb;
+    
+}
+
+.container {
+    width: 300px;
+    height: 670px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.pictures {
+    margin: 10px;
+    width: 100%;    
+}
+
+.card {
+    position: relative;    
+}
+
+.blu-ray {
+    position: relative;
+    top: -310px;
+    left: 90px;    
+}
+
+.action {
+    position: relative;    
+    top: -100px;
+    left: -90px;
+}
+
+.name {
+    position: relative;
+    line-height: .1;
+    top: -90px;
+    font-size: 20px;
+    color: #616161;
+    text-align: center;
+}
+
+.price {
+    display: flex;
+    justify-content: space-evenly;    
+    
+    position: relative;
+    top: -120px;
+    font-weight: 600;
+}
+
+.price1 {
+    color: #242323;
+    font-size: 28px;
+}
+
+.price2 {
+    padding: 12px;
+    color: #868282;
+    font-size: 22px;
+    text-decoration: line-through;
+    top: 25px;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    top: -165px;
+}
+
+
+.star {
+    text-decoration: none;
+    color: #f4c948;
+    font-size: 46px;
+}
+
+.star:hover, .star:hover ~ .star {
+    color: #6c5353 ;
+}
+
+.star1 {
+    text-decoration: none;
+    color: #6c5353;
+    font-size: 46px;
+}
+
+.star1:hover {
+    color: #f4c948;
+}
+
+.card_btn {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    top: -165px;
+}
+
+.buy {
+    width: 240px;
+}
+
+a:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+    
+}
+
+
+
+
